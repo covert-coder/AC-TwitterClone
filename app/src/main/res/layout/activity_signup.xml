@@ -18,7 +18,7 @@
         app:srcCompat="@drawable/bird" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/edtEmailNew"
         android:layout_width="284dp"
         android:layout_height="40dp"
         android:layout_marginTop="31dp"
@@ -33,7 +33,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/edtLoginNew"
         android:layout_width="284dp"
         android:layout_height="40dp"
         android:layout_marginTop="12dp"
@@ -44,10 +44,10 @@
         android:textColorHint="@android:color/background_light"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText3" />
+        app:layout_constraintTop_toBottomOf="@+id/edtEmailNew" />
 
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/edtPassNew"
         android:layout_width="284dp"
         android:layout_height="40dp"
         android:layout_marginTop="12dp"
@@ -58,7 +58,7 @@
         android:textColorHint="@android:color/background_light"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText4" />
+        app:layout_constraintTop_toBottomOf="@+id/edtLoginNew" />
 
     <Button
         android:id="@+id/btnSignUp"
@@ -76,7 +76,7 @@
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText5" />
+        app:layout_constraintTop_toBottomOf="@+id/edtPassNew" />
 
     <Button
         android:id="@+id/btnReturnLogin"

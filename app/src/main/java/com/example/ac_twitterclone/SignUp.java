@@ -28,6 +28,9 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
         setTitle("SignUp");
         mLoginGo=findViewById(R.id.btnReturnLogin);
         mSignUp=findViewById(R.id.btnSignUp);
+        mUserNameTwitter=findViewById(R.id.edtLoginNew);
+        mEmailTwitter=findViewById(R.id.edtEmailNew);
+        mPasswordTwitter=findViewById(R.id.edtPassNew);
         mLoginGo.setOnClickListener(this);
         mSignUp.setOnClickListener(this);
     }

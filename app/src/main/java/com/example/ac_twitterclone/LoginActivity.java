@@ -27,7 +27,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 // user name, as entered, and password, as entered are sent to parse server for match
                         // parse server will produce error if either username or password do not match records (e),then e != null
                         // using Back4.com for parse server, lack of either username or password generates built-in error, e
-                ParseUser.logInInBackground(mTxtPasswordOnFile.getText().toString(), mTxtLoginOnFile.getText().toString(), new LogInCallback() {
+                ParseUser.logInInBackground(mTxtLoginOnFile.getText().toString(),mTxtPasswordOnFile.getText().toString(), new LogInCallback() {
                     @Override
                     public void done(ParseUser user, ParseException e) {
                         if(user!=null && e==null){
@@ -56,7 +56,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         mLogin = findViewById(R.id.btnLogin);
         mSignUpReturn = findViewById(R.id.btnSignUp);
         mTxtPasswordOnFile= findViewById(R.id.edtTxtPsswd);
-        mTxtLoginOnFile=findViewById(R.id.edtTxtPsswd);
+        mTxtLoginOnFile=findViewById(R.id.edtTxtLoginName);
 
         mLogin.setOnClickListener(LoginActivity.this);
         mSignUpReturn.setOnClickListener(LoginActivity.this);
