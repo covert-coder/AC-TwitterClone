@@ -19,7 +19,7 @@
         app:srcCompat="@drawable/bird" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/edtTxtLoginName"
         android:layout_width="275dp"
         android:layout_height="42dp"
         android:layout_marginTop="27dp"
@@ -33,7 +33,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/edtTxtPsswd"
         android:layout_width="275dp"
         android:layout_height="40dp"
         android:layout_marginTop="22dp"
@@ -44,10 +44,10 @@
         android:textColorHint="@android:color/background_light"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        app:layout_constraintTop_toBottomOf="@+id/edtTxtLoginName" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnLogin"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -55,26 +55,28 @@
         android:layout_marginTop="19dp"
         android:layout_marginEnd="20dp"
         android:layout_marginRight="20dp"
-        android:background="@color/colorPrimaryDark"
+        android:background="?android:attr/colorEdgeEffect"
         android:text="Login"
         android:textColor="@android:color/background_light"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+        app:layout_constraintTop_toBottomOf="@+id/edtTxtPsswd" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnSignUp"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="20dp"
         android:layout_marginRight="20dp"
         android:background="@android:color/holo_green_dark"
         android:text="Signup for Twitter"
+        android:textColor="@android:color/background_light"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
 </androidx.constraintlayout.widget.ConstraintLayout>
