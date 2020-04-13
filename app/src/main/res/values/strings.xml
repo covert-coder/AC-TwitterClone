@@ -5,5 +5,15 @@
     <!-- Change the following strings as required -->
     <string name="back4app_app_id">1jhD9pbOSIsn8TfIeMFqu0l0aV9JuFZxXSTvFw7u</string>
     <string name="back4app_client_key">hYqo0prMZtlEzcHFt7GaXX2dPGZiIoXvlxRCtl5l</string>
+    <string name="please_enter_your_login_name">Please enter your login name</string>
+    <string name="please_enter_your_password">Please enter your password</string>
+    <string name="login">Login</string>
+    <string name="signup_for_twitter">Signup for Twitter</string>
+    <string name="bird_image">bird image</string>
+    <string name="please_enter_an_email_address">Please enter an email address</string>
+    <string name="please_create_a_login_name">Please create a Login Name</string>
+    <string name="please_create_a_password">Please create a password</string>
+    <string name="signup">Signup</string>
+    <string name="return_to_login">Return to Login</string>
 
 </resources>
